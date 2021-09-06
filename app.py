@@ -239,7 +239,7 @@ def update_figure1(a1,a2,a3,a4,a5,a6,a7):
              model = load_model('AnomalyDetection.h5', compile = True)
             
              import pandas as pd
-             meanst = pd.read_csv("https://raw.githubusercontent.com/Nibs007/LSTM/main/MeanStd_Anomaly.csv")
+             meanst = pd.read_csv("https://raw.githubusercontent.com/harshadeep1809/TimeSeries/main/MeanStd_Anomaly.csv")
              if a1!= None and a2!= None and a3!=None and a4!= None and a5!= None and a6!= None and a7!=None:
                 x = [a1,a2,a3,a4,a5,a6,a7]
                 x = [float(i) for i in x]
